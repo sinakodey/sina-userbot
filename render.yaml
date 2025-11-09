@@ -1,0 +1,5 @@
+services:
+  - type: worker
+    name: sina-userbot
+    runtime: python
+    startCommand: python userbot.py
